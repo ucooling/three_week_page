@@ -1,4 +1,4 @@
-/* line 5, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -210,7 +210,7 @@ body {
 }
 /* line 135, ../sass/style.scss */
 .content .data li .item {
-  font-size: 10px;
+  font-size: 15px;
   margin-top: 20px;
   color: #CCCCCC;
 }
@@ -397,39 +397,57 @@ body {
   height: 60px;
   margin: 0 auto;
   margin-top: 20px;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 /* line 299, ../sass/style.scss */
-.content .recent .text .image div {
+.content .recent .text .image .div11 {
   width: 60px;
   height: 60px;
   border-radius: 60px;
-  background-image: url("../img/sunset-resized.jpg");
+  background-image: url("../img/11.jpg");
+  float: left;
+  margin-left: 30px;
+}
+/* line 307, ../sass/style.scss */
+.content .recent .text .image .div22 {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-image: url("../img/22.jpg");
+  float: left;
+  margin-left: 30px;
+}
+/* line 315, ../sass/style.scss */
+.content .recent .text .image .div33 {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-image: url("../img/33.jpg");
   float: left;
   margin-left: 30px;
 }
 
-/* line 313, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 .bottom-agent {
   width: 90%;
   height: 200px;
   background-image: url("../img/sunset-resized.jpg");
   margin: 0 auto;
 }
-/* line 318, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .bottom-agent span {
   font-size: 18px;
   color: white;
   margin-right: 20px;
   margin-left: 20px;
 }
-/* line 324, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 .bottom-agent div {
   width: 60%;
   margin: 0 auto;
   padding-top: 60px;
 }
-/* line 328, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
 .bottom-agent div input {
   margin-top: 20px;
   width: 400px;
@@ -441,7 +459,7 @@ body {
   border-top-left-radius: 5px;
   border: none;
 }
-/* line 340, ../sass/style.scss */
+/* line 356, ../sass/style.scss */
 .bottom-agent div button {
   width: 100px;
   height: 43px;
@@ -455,7 +473,7 @@ body {
   border-top-right-radius: 5px;
 }
 
-/* line 355, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .footer {
   height: 50px;
   background-color: white;
@@ -464,24 +482,31 @@ body {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-/* line 362, ../sass/style.scss */
+/* line 378, ../sass/style.scss */
 .footer ul {
   text-decoration: none;
   padding-top: 20px;
   padding-left: 100px;
 }
-/* line 366, ../sass/style.scss */
+/* line 382, ../sass/style.scss */
 .footer ul li {
   float: left;
   font-size: 15px;
   margin-left: 30px;
 }
-/* line 371, ../sass/style.scss */
+/* line 387, ../sass/style.scss */
 .footer ul li:nth-last-child(2) {
-  margin-left: 500px;
+  margin-left: 800px;
+  margin-top: -15px;
+}
+/* line 391, ../sass/style.scss */
+.footer ul li:nth-last-child(1) {
+  margin-left: 800px;
+  margin-top: -15px;
+  margin-left: 30px;
 }
 
-/* line 377, ../sass/style.scss */
+/* line 399, ../sass/style.scss */
 .agent_number {
   width: 90%;
   border: 1px solid red;
@@ -491,20 +516,4 @@ body {
   top: -75px;
   position: relative;
   background: #f4f3f1;
-  /*.item{
-    width: 25%;
-    border-right: 1px solid #CCC;
-    float: left;
-    .number {
-      padding: 50px 0 20px;
-      font-weight: bolder;
-      color: #555;
-    }
-    p{
-      color: #999;
-      text-align: center;
-      padding-bottom: 50px;
-    }
-  }
-*/
 }

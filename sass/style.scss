@@ -133,7 +133,7 @@ body {
       }
 
       .item {
-        font-size: 10px;
+        font-size: 15px;
         margin-top: 20px;
         color: #CCCCCC;
       }
@@ -295,12 +295,28 @@ body {
         height: 60px;
         margin: 0 auto;
         margin-top: 20px;
-        margin-left: 60px;
-        div {
+        margin-left: 30px;
+        .div11 {
           width: 60px;
           height: 60px;
           border-radius: 60px;
-          background-image: url('../img/sunset-resized.jpg');
+          background-image: url('../img/11.jpg');
+          float: left;
+          margin-left: 30px;
+        }
+        .div22 {
+          width: 60px;
+          height: 60px;
+          border-radius: 60px;
+          background-image: url('../img/22.jpg');
+          float: left;
+          margin-left: 30px;
+        }
+        .div33 {
+          width: 60px;
+          height: 60px;
+          border-radius: 60px;
+          background-image: url('../img/33.jpg');
           float: left;
           margin-left: 30px;
         }
@@ -369,7 +385,13 @@ body {
       margin-left: 30px;
     }
     li:nth-last-child(2) {
-      margin-left: 500px;
+      margin-left: 800px;
+      margin-top: -15px;
+    }
+    li:nth-last-child(1) {
+      margin-left: 800px;
+      margin-top: -15px;
+      margin-left: 30px;
     }
   }
 }
@@ -383,23 +405,8 @@ body {
   top: -75px;
   position: relative;
   background: #f4f3f1;
-  /*.item{
-    width: 25%;
-    border-right: 1px solid #CCC;
-    float: left;
-    .number {
-      padding: 50px 0 20px;
-      font-weight: bolder;
-      color: #555;
-    }
-    p{
-      color: #999;
-      text-align: center;
-      padding-bottom: 50px;
-    }
-  }
-*/
 }
+
 
 
 
