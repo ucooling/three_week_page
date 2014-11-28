@@ -1,0 +1,427 @@
+/* line 5, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/week2.scss */
+html {
+  min-width: 1200px;
+}
+
+/* line 14, ../sass/week2.scss */
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 62.5%;
+  background-color: #FFCC99;
+  margin: 0 auto;
+}
+
+/* line 21, ../sass/week2.scss */
+.bar {
+  height: 60px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFFBF5;
+}
+/* line 26, ../sass/week2.scss */
+.bar .cycle {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  background: #80a8cc;
+  margin: 0 auto;
+  float: left;
+  margin: 10px 20px;
+}
+/* line 34, ../sass/week2.scss */
+.bar .cycle span {
+  display: block;
+  margin: 7px 8px;
+  font-size: 20px;
+}
+/* line 40, ../sass/week2.scss */
+.bar .bar-five {
+  font-size: 35px;
+  color: #80a8cc;
+  margin-left: 50%;
+  padding-top: 10px;
+}
+/* line 46, ../sass/week2.scss */
+.bar .bar-six {
+  float: right;
+  position: relative;
+  margin-right: 100px;
+  margin-top: -38px;
+}
+/* line 51, ../sass/week2.scss */
+.bar .bar-six input {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #CCC;
+}
+/* line 57, ../sass/week2.scss */
+.bar .bar-six a span {
+  font-size: 18px;
+  position: absolute;
+  top: 7px;
+  left: 180px;
+  color: black;
+}
+/* line 65, ../sass/week2.scss */
+.bar .bar-seven {
+  float: right;
+  margin-top: -38px;
+  margin-right: 40px;
+}
+
+/* line 72, ../sass/week2.scss */
+.content {
+  width: 90%;
+  height: 1700px;
+  background-color: #F2EEE8;
+  margin: 0 auto;
+  border-top: 1px solid #CCC;
+}
+/* line 78, ../sass/week2.scss */
+.content .side {
+  width: 20%;
+  height: 1000px;
+  background-color: #80a8cc;
+  float: left;
+}
+/* line 83, ../sass/week2.scss */
+.content .side .desc {
+  width: 100%;
+  height: 320px;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 1.5em;
+  color: white;
+  font-weight: lighter;
+}
+/* line 91, ../sass/week2.scss */
+.content .side .desc .photo {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  border: 1px solid white;
+  background-image: url("../img/me.png");
+}
+/* line 101, ../sass/week2.scss */
+.content .side .desc .photo-text {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+/* line 106, ../sass/week2.scss */
+.content .side .desc .photo-text .icon-hyperlink {
+  margin-top: 20px;
+  display: block;
+}
+/* line 110, ../sass/week2.scss */
+.content .side .desc .photo-text a {
+  color: white;
+}
+/* line 111, ../sass/week2.scss */
+.content .side .desc .photo-text button {
+  margin-top: 20px;
+  opacity: 0.5;
+  width: 60%;
+  height: 25px;
+  background-color: #006699;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+/* line 124, ../sass/week2.scss */
+.content .side .display-photo {
+  width: 100%;
+  border-top: 1px solid #CCC;
+  height: 250px;
+}
+/* line 128, ../sass/week2.scss */
+.content .side .display-photo img {
+  width: 32.5%;
+  margin: 0px;
+  border: none;
+}
+/* line 134, ../sass/week2.scss */
+.content .side .link-text {
+  width: 100%;
+  line-height: 1.2;
+  font-size: 1.3em;
+  text-align: left;
+}
+/* line 139, ../sass/week2.scss */
+.content .side .link-text p:nth-child(1) {
+  color: white;
+  margin-left: 15px;
+}
+/* line 144, ../sass/week2.scss */
+.content .side .link-text p .icon-ma {
+  margin-left: 15px;
+  color: #CCC;
+  margin-right: 3px;
+}
+/* line 150, ../sass/week2.scss */
+.content .side .link-text a {
+  color: white;
+}
+/* line 155, ../sass/week2.scss */
+.content .center-content {
+  width: 55%;
+  height: auto;
+  background-color: #FFFBF5;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 26px;
+}
+/* line 163, ../sass/week2.scss */
+.content .center-content .center-top {
+  width: 100%;
+  height: 80px;
+  background-color: #FFFBF5;
+  font-size: 1.6em;
+}
+/* line 168, ../sass/week2.scss */
+.content .center-content .center-top ul {
+  /*      	li:nth-child(1){
+        	  border-bottom: 4px solid $bg;
+        	}*/
+}
+/* line 169, ../sass/week2.scss */
+.content .center-content .center-top ul li {
+  width: 25%;
+  height: 100%;
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  line-height: 0.5;
+  margin-top: 10px;
+}
+/* line 177, ../sass/week2.scss */
+.content .center-content .center-top ul li p:nth-child(1) {
+  color: #CCC;
+}
+/* line 180, ../sass/week2.scss */
+.content .center-content .center-top ul li p:nth-child(2) {
+  font-weight: bold;
+}
+/* line 187, ../sass/week2.scss */
+.content .center-content .center-top ul li:hover {
+  border-bottom: 4px solid #80a8cc;
+}
+/* line 192, ../sass/week2.scss */
+.content .center-content .space {
+  width: 100%;
+  height: 25px;
+  background-color: #F2EEE8;
+}
+/* line 197, ../sass/week2.scss */
+.content .center-content .posts {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+/* line 202, ../sass/week2.scss */
+.content .center-content .posts .post {
+  width: 100%;
+  border-bottom: 1px solid #F2EEE8;
+  position: relative;
+}
+/* line 206, ../sass/week2.scss */
+.content .center-content .posts .post .avigar {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  border-radius: 50px;
+  border: 1px solid #F2EEE8;
+  background-position: -10px;
+  background-image: url("../img/avigar.png");
+}
+/* line 218, ../sass/week2.scss */
+.content .center-content .posts .post .item {
+  margin-left: 70px;
+  padding-top: 20px;
+}
+/* line 221, ../sass/week2.scss */
+.content .center-content .posts .post .item p:nth-child(1) {
+  color: #CCC;
+  font-size: 1.2em;
+}
+/* line 224, ../sass/week2.scss */
+.content .center-content .posts .post .item p:nth-child(1) span {
+  margin-right: 10px;
+}
+/* line 227, ../sass/week2.scss */
+.content .center-content .posts .post .item p:nth-child(1) span:nth-last-child(1) {
+  float: right;
+}
+/* line 230, ../sass/week2.scss */
+.content .center-content .posts .post .item p:nth-child(1) span:nth-child(1) {
+  color: black;
+  font-weight: bolder;
+}
+/* line 235, ../sass/week2.scss */
+.content .center-content .posts .post .item .img {
+  max-width: 90%;
+}
+/* line 238, ../sass/week2.scss */
+.content .center-content .posts .post .item .ppp {
+  text-align: justify;
+}
+/* line 242, ../sass/week2.scss */
+.content .center-content .posts .post .item .icon-p .icon {
+  color: #CCC;
+  margin-right: 10px;
+}
+/* line 246, ../sass/week2.scss */
+.content .center-content .posts .post .item .icon-p span:nth-last-child(1) {
+  float: right;
+}
+/* line 249, ../sass/week2.scss */
+.content .center-content .posts .post .item .icon-p span:hover {
+  color: black;
+}
+/* line 258, ../sass/week2.scss */
+.content .side-right {
+  width: 20%;
+  height: auto;
+  background-color: #FFFBF5;
+  float: left;
+}
+/* line 263, ../sass/week2.scss */
+.content .side-right p {
+  color: #80a8cc;
+  font-size: 1.3em;
+  padding-left: 30px;
+}
+/* line 268, ../sass/week2.scss */
+.content .side-right p:nth-child(1) {
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+/* line 273, ../sass/week2.scss */
+.content .side-right .items {
+  margin-top: 30px;
+}
+/* line 275, ../sass/week2.scss */
+.content .side-right .items p span:nth-child(1) {
+  float: right;
+  color: #80a8cc;
+  margin-right: 18px;
+}
+/* line 280, ../sass/week2.scss */
+.content .side-right .items .item {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 0px;
+}
+/* line 286, ../sass/week2.scss */
+.content .side-right .items .item .image {
+  margin: 0 auto;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  border-radius: 35px;
+  border: 1px solid #F2EEE8;
+  background-position: -20px -11px;
+  background-image: url("../img/avigar.png");
+}
+/* line 298, ../sass/week2.scss */
+.content .side-right .items .item .text {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+/* line 302, ../sass/week2.scss */
+.content .side-right .items .item .text p {
+  margin-top: -8px;
+}
+/* line 305, ../sass/week2.scss */
+.content .side-right .items .item .text p:nth-last-child(1) {
+  margin-top: -25px;
+  color: #CCC;
+}
+/* line 310, ../sass/week2.scss */
+.content .side-right .items .item .plus {
+  float: right;
+  font-size: 1.6em;
+  color: #CCC;
+  margin-top: 5px;
+}
