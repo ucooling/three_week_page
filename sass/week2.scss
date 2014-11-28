@@ -1,0 +1,319 @@
+@import "compass/reset";
+@import "compass/css3";
+
+$bg: #80a8cc;
+$text-color: #58575F;
+$bod-color: #F2EEE8;
+$post-bg-color: #FFFBF5;
+$gray-text-color: #C6C1B0;
+$bar-side-color: white;
+
+html {
+	min-width: 1200px;
+}
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 62.5%;
+  background-color: #FFCC99;
+  margin: 0 auto;
+}
+
+.bar{
+  height: 60px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: $post-bg-color;
+  .cycle {
+	border-radius: 100%;
+	width: 35px;
+	height: 35px;
+	background: #80a8cc;
+	margin: 0 auto;
+	float: left;
+	margin: 10px 20px;
+	span {
+	  display: block;
+	  margin: 7px 8px;
+	  font-size: 20px;
+	}
+  }
+  .bar-five {
+  	font-size: 35px;
+  	color: #80a8cc;
+  	margin-left: 50%;
+  	padding-top: 10px;
+  }
+  .bar-six {
+  	float: right;
+  	position: relative;
+  	margin-right: 100px;
+  	margin-top: -38px;
+  	input {
+  	  width: 200px;
+  	  height: 30px;
+  	  border-radius: 20px;
+  	  border: 1px solid #CCC;
+  	}
+  	a span {
+  		font-size: 18px;
+  		position: absolute;
+  		top: 7px;
+  		left: 180px;
+  		color: black;
+  	}
+  }
+  .bar-seven {
+  	float: right;
+  	margin-top: -38px;
+  	margin-right: 40px;
+  }
+}
+
+.content {
+  width: 90%;
+  height: 1700px;
+  background-color: $bod-color;
+  margin: 0 auto;
+  border-top: 1px solid #CCC;
+  .side{
+  	width: 20%;
+  	height: 1000px;
+  	background-color: $bg;
+  	float: left;
+  	.desc {
+  	  width: 100%;
+  	  height: 320px;
+  	  text-align: center;
+  	  line-height: 1.2;
+  	  font-size: 1.5em;
+  	  color: $bar-side-color;
+  	  font-weight: lighter;
+  	  .photo {
+  	  	margin: 0 auto;
+  	  	margin-top: 40px;
+  	  	margin-bottom: 20px;
+  	  	width: 70px;
+  	  	height: 70px;
+  	  	border-radius: 70px;
+  	  	border: 1px solid white;
+  	  	background-image: url('../img/me.png');
+  	  }
+  	  .photo-text{
+  	  	width: 70%;
+  	  	margin: 0 auto;
+  	  	text-align: center;
+  	  	margin-top: 10px;
+  	  	.icon-hyperlink {
+  	  		margin-top: 20px;
+  	  		display: block;
+  	  	}
+  	  	a {color: $bar-side-color}
+  	  	button {
+  	  	  margin-top: 20px;
+  	  	  opacity: 0.5;
+  	  	  width: 60%;
+  	  	  height: 25px; 
+  	  	  background-color: #006699;
+  	  	  color: $bar-side-color;
+  	  	  border-radius: 10px;
+  	  	  border: none;
+
+  	  	}
+  	  }
+  	}
+  	.display-photo {
+  	  width: 100%;
+  	  border-top: 1px solid #CCC;
+  	  height: 250px;
+  	  img {
+  	  	width: 32.5%;
+  	  	margin: 0px;
+  	  	border: none;
+  	  }
+  	}
+  	.link-text {
+      width:100%;
+      line-height: 1.2;
+      font-size: 1.3em;
+      text-align: left;
+      p:nth-child(1) {
+      	color:$bar-side-color;
+      	margin-left: 15px;
+      }
+      p {
+      	.icon-ma{
+      	  margin-left: 15px;
+      	  color: #CCC;
+      	  margin-right: 3px;
+      	}
+      }
+      a {
+      	color:$bar-side-color; 
+      } 
+  	}
+  }
+  .center-content{
+    width: 55%;
+    height: auto;
+    background-color: $post-bg-color;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 26px;
+    .center-top {
+      width: 100%;
+      height: 80px;
+      background-color: $post-bg-color;
+      font-size: 1.6em;
+      ul {
+      	li{
+      	  width: 25%;
+      	  height: 100%;
+      	  list-style-type: none;
+      	  text-align: center;
+      	  float: left;
+      	  line-height: 0.5;
+      	  margin-top: 10px;
+      	  p:nth-child(1){
+            color:#CCC;
+      	  }
+      	  p:nth-child(2){
+      	  	font-weight: bold;
+      	  }
+      	}
+/*      	li:nth-child(1){
+      	  border-bottom: 4px solid $bg;
+      	}*/
+      	li:hover {
+      	  border-bottom: 4px solid $bg;
+      	}
+      }
+    }
+    .space {
+      width: 100%;
+      height: 25px;
+      background-color: $bod-color;
+    }
+    .posts {
+      width: 90%;
+      margin: 0 auto;
+      font-size: 1.4em;
+      line-height: 1.2;
+      .post {
+      	width: 100%;
+      	border-bottom: 1px solid $bod-color;
+      	position: relative;
+      	.avigar{
+      	  margin: 0 auto;
+	  	  width: 50px;
+	  	  height: 50px;
+	  	  position: absolute;
+	  	  top: 20px;
+	  	  left: 0;
+	  	  border-radius: 50px;
+	  	  border: 1px solid $bod-color;
+	  	  background-position: -10px;
+	  	  background-image: url('../img/avigar.png');
+      	} 
+      	.item {
+      	  margin-left: 70px;
+      	  padding-top: 20px;
+      	  p:nth-child(1){
+      	  	color:#CCC;
+      	  	font-size: 1.2em;
+      	  	span{
+      	  	  margin-right: 10px;
+      	  	}
+      	  	span:nth-last-child(1){
+      	  	  float: right;
+      	  	}
+      	  	span:nth-child(1){
+      	  	  color: black;
+      	  	  font-weight: bolder;
+      	  	}
+      	  }
+      	  .img{
+      	  	max-width: 90%;
+      	  }
+      	  .ppp {
+      	  	text-align: justify;
+      	  }
+      	  .icon-p {
+      	  	.icon {
+      	  	  color: #CCC;
+      	  	  margin-right: 10px;
+      	  	}
+      	  	span:nth-last-child(1){
+      	  	  float:right;
+      	  	}
+      	  	span:hover{
+      	  	  color: black;
+      	  	}
+      	  }
+      	}    	
+      }
+      
+    }
+  }
+  .side-right {
+  	width: 20%;
+  	height: auto;
+  	background-color: $post-bg-color;
+  	float: left;
+  	p {
+  	  color:$bg;
+  	  font-size: 1.3em;
+  	  padding-left: 30px;
+  	}
+  	p:nth-child(1){
+  	  color: black;
+  	  padding-top: 25px;
+  	  padding-bottom: 20px;
+  	}
+  	.items {
+  	  margin-top: 30px;
+  	  p span:nth-child(1){
+  	  	float:right;
+  	  	color: $bg;
+  	  	margin-right: 18px;
+  	  }
+  	  .item {
+  	  	width: 80%;
+  	  	height: 60px;
+  	  	margin: 0 auto;
+  	  	position: relative;
+  	  	margin-bottom: 0px;
+  	  	.image {
+  	  	  margin: 0 auto;
+	  	  width: 35px;
+	  	  height: 35px;
+	  	  position: absolute;
+	  	  top: 0px;
+	  	  left: 0;
+	  	  border-radius: 35px;
+	  	  border: 1px solid $bod-color;
+	  	  background-position: -20px -11px;
+	  	  background-image: url('../img/avigar.png');
+  	  	}
+  	  	.text {
+  	  	  position: absolute;
+  	  	  top: -10px;
+  	  	  left: 20px;
+  	  	  p{
+  	  	  	margin-top: -8px;
+  	  	  }
+  	  	  p:nth-last-child(1) {
+  	  	  	margin-top: -25px;
+  	  	  	color: #CCC;
+  	  	  }
+  	  	}
+  	  	.plus {
+  	  	  float: right;
+  	  	  font-size: 1.6em;
+  	  	  color: #CCC;
+  	  	  margin-top: 5px;
+  	  	}
+  	  }
+  	}
+  }
+}
