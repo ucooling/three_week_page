@@ -25,10 +25,10 @@ body {
   background-color: $post-bg-color;
   .cycle {
 	border-radius: 100%;
+  border: 1px solid $gray-text-color;
 	width: 35px;
 	height: 35px;
-	background: #80a8cc;
-	margin: 0 auto;
+  margin: 0 auto;
 	float: left;
 	margin: 10px 20px;
 	span {
@@ -36,6 +36,17 @@ body {
 	  margin: 7px 8px;
 	  font-size: 20px;
 	}
+  }
+  .bar-backgound {
+    background: #80a8cc;
+    border:none;
+  }
+  .bar-line {
+    border-right: 1px solid $bod-color;
+    width: 5px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
   }
   .bar-five {
   	font-size: 35px;
@@ -96,7 +107,8 @@ body {
   	  	height: 70px;
   	  	border-radius: 70px;
   	  	border: 1px solid white;
-  	  	background-image: url('../img/me.png');
+        background-position: -2px -13px;
+  	  	background-image: url('../img/me.jpeg');
   	  }
   	  .photo-text{
   	  	width: 70%;
@@ -127,6 +139,7 @@ body {
   	  height: 250px;
   	  img {
   	  	width: 32.5%;
+        height: 80px;
   	  	margin: 0px;
   	  	border: none;
   	  }
@@ -212,8 +225,8 @@ body {
 	  	  left: 0;
 	  	  border-radius: 50px;
 	  	  border: 1px solid $bod-color;
-	  	  background-position: -10px;
-	  	  background-image: url('../img/avigar.png');
+	  	  background-position: -14px -19px;
+	  	  background-image: url('../img/me.jpeg');
       	} 
       	.item {
       	  margin-left: 70px;
@@ -292,8 +305,8 @@ body {
 	  	  left: 0;
 	  	  border-radius: 35px;
 	  	  border: 1px solid $bod-color;
-	  	  background-position: -20px -11px;
-	  	  background-image: url('../img/avigar.png');
+	  	  background-position: -23px -24px;
+	  	  background-image: url('../img/me.jpeg');
   	  	}
   	  	.text {
   	  	  position: absolute;
