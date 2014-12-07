@@ -1,0 +1,206 @@
+@import "compass/reset";
+@import "compass/css3";
+
+$text_color : #0ac285;
+$introduction_color : #dddddd;
+
+body {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: 'PT Sans', sans-serif;
+  margin: 0 auto;
+}
+.header {
+  border: 1px solid #CCC;
+  background-image: url('../img/mainpage.jpg');
+  height: 620px;
+  width: 100%;
+  position: relative;
+  /*opacity: 0.9;*/
+  .bar {
+    width: 100%;
+    height: 40px;
+    background-color: $text_color;
+    font-size: 1.5em;
+    color: white;
+    position: relative;
+    ul {
+      margin-left: 40px;
+      li {
+        float: left;
+        margin-left: 30px;
+        padding-top: 12px;
+      }
+    }
+  }
+  .topic {
+  	position: relative;
+  	z-index: 2;
+  	p{
+  	  span{
+	    font-size: 5em;
+	    margin: 20% 30%;
+	    color: white;
+	    display: block;
+      font-weight: bold;
+	  }
+    }
+  }
+  .grey {
+  	position: absolute;
+  	height: 620px;
+    width: 100%;
+  	top: 0;
+  	left: 0;
+  	opacity: 0.6;
+  	zoom: 1;
+  	background-color: black;
+  } 
+}
+
+.contain {
+    width: 100%;
+    height:1800px;
+    background-color: $introduction_color;
+    .introduction {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 2.5em;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: $text_color;
+      background-color: white;
+      span{
+        border-bottom: 2px solid #CCC;
+      }
+    }
+    .first_partion {
+      margin: 0 auto;
+      width: 90%;
+      margin-top: 20px;
+
+      .content_middle {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+      .vedio {
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-left: 100px;
+        .img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .what {
+        width: 39%;
+        height: 100%;
+        float: left;
+        padding-left: 60px;
+        h1 {
+          font-size: 2.5em;
+          margin-bottom: 30px;
+          font-weight: bolder;
+        }
+        p{
+          font-size: 1.7em;
+          line-height: 1.6;
+          text-align: justify;
+
+        }
+      }
+    }
+  }
+  .secone_partion {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 50px;
+    .content_middle {
+        width: 100%;
+        height: 460px;
+        margin: 0 auto;
+      .advantage{
+        width: 39%;
+        height: 100%;
+        float: left;
+        padding-left: 60px;
+        margin-left: 35px;
+        margin-right: 60px;
+        h1 {
+          font-size: 2.5em;
+          margin-bottom: 30px;
+          font-weight: bolder;
+        }
+        p{
+          font-size: 1.7em;
+          line-height: 1.6;
+          text-align: justify;
+        }
+      }
+      .vedio {
+        width: 40%;
+        height: 80%;
+        float: left;
+        .img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  } 
+
+  .three_partion {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 50px;
+    .how {
+      margin: 0 auto;
+      width: 90%;
+      height: 400px;
+      padding-top: 10px;
+      .step {
+        width: 45%;
+        position: relative;
+        height: 100%;
+        margin-left: 20px;
+        background-color: #CCC;
+        float: left;
+       .cycle{
+          border: 1px solid #CCC;
+          width: 150px;
+          height:150px;
+          margin: 0 auto;
+          float: left;
+          border-radius: 150px;
+          background-color: green;
+          margin-right: 100px;
+          margin-bottom: 100px;
+          p {
+            margin-left: 30%;
+            margin-top: 45%;
+            font-size: 2em;
+          }
+        }
+      }
+      .step_content {
+        width: 45%;
+        height: 100%;
+        float: left;
+        padding-left: 60px;
+        h1 {
+          font-size: 2.5em;
+          margin-bottom: 30px;
+          font-weight: bolder;
+        }
+        p{
+          font-size: 1.7em;
+          line-height: 1.6;
+          text-align: justify;
+        }
+      }
+    }
+  }  
+}

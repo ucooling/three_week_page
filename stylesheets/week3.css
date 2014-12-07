@@ -1,0 +1,294 @@
+/* line 5, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p481/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/week3.scss */
+body {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: 'PT Sans', sans-serif;
+  margin: 0 auto;
+}
+
+/* line 15, ../sass/week3.scss */
+.header {
+  border: 1px solid #CCC;
+  background-image: url("../img/mainpage.jpg");
+  height: 620px;
+  width: 100%;
+  position: relative;
+  /*opacity: 0.9;*/
+}
+/* line 22, ../sass/week3.scss */
+.header .bar {
+  width: 100%;
+  height: 40px;
+  background-color: #0ac285;
+  font-size: 1.5em;
+  color: white;
+  position: relative;
+}
+/* line 29, ../sass/week3.scss */
+.header .bar ul {
+  margin-left: 40px;
+}
+/* line 31, ../sass/week3.scss */
+.header .bar ul li {
+  float: left;
+  margin-left: 30px;
+  padding-top: 12px;
+}
+/* line 38, ../sass/week3.scss */
+.header .topic {
+  position: relative;
+  z-index: 2;
+}
+/* line 42, ../sass/week3.scss */
+.header .topic p span {
+  font-size: 5em;
+  margin: 20% 30%;
+  color: white;
+  display: block;
+  font-weight: bold;
+}
+/* line 51, ../sass/week3.scss */
+.header .grey {
+  position: absolute;
+  height: 620px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  zoom: 1;
+  background-color: black;
+}
+
+/* line 63, ../sass/week3.scss */
+.contain {
+  width: 100%;
+  height: 1800px;
+  background-color: #dddddd;
+}
+/* line 67, ../sass/week3.scss */
+.contain .introduction {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #0ac285;
+  background-color: white;
+}
+/* line 75, ../sass/week3.scss */
+.contain .introduction span {
+  border-bottom: 2px solid #CCC;
+}
+/* line 79, ../sass/week3.scss */
+.contain .first_partion {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 20px;
+}
+/* line 84, ../sass/week3.scss */
+.contain .first_partion .content_middle {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+/* line 88, ../sass/week3.scss */
+.contain .first_partion .content_middle .vedio {
+  width: 40%;
+  height: 100%;
+  float: left;
+  margin-left: 100px;
+}
+/* line 93, ../sass/week3.scss */
+.contain .first_partion .content_middle .vedio .img {
+  width: 100%;
+  height: 100%;
+}
+/* line 98, ../sass/week3.scss */
+.contain .first_partion .content_middle .what {
+  width: 39%;
+  height: 100%;
+  float: left;
+  padding-left: 60px;
+}
+/* line 103, ../sass/week3.scss */
+.contain .first_partion .content_middle .what h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+/* line 108, ../sass/week3.scss */
+.contain .first_partion .content_middle .what p {
+  font-size: 1.7em;
+  line-height: 1.6;
+  text-align: justify;
+}
+/* line 117, ../sass/week3.scss */
+.contain .secone_partion {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 50px;
+}
+/* line 121, ../sass/week3.scss */
+.contain .secone_partion .content_middle {
+  width: 100%;
+  height: 460px;
+  margin: 0 auto;
+}
+/* line 125, ../sass/week3.scss */
+.contain .secone_partion .content_middle .advantage {
+  width: 39%;
+  height: 100%;
+  float: left;
+  padding-left: 60px;
+  margin-left: 35px;
+  margin-right: 60px;
+}
+/* line 132, ../sass/week3.scss */
+.contain .secone_partion .content_middle .advantage h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+/* line 137, ../sass/week3.scss */
+.contain .secone_partion .content_middle .advantage p {
+  font-size: 1.7em;
+  line-height: 1.6;
+  text-align: justify;
+}
+/* line 143, ../sass/week3.scss */
+.contain .secone_partion .content_middle .vedio {
+  width: 40%;
+  height: 80%;
+  float: left;
+}
+/* line 147, ../sass/week3.scss */
+.contain .secone_partion .content_middle .vedio .img {
+  width: 100%;
+  height: 100%;
+}
+/* line 155, ../sass/week3.scss */
+.contain .three_partion {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 50px;
+}
+/* line 159, ../sass/week3.scss */
+.contain .three_partion .how {
+  margin: 0 auto;
+  width: 90%;
+  height: 400px;
+  padding-top: 10px;
+}
+/* line 164, ../sass/week3.scss */
+.contain .three_partion .how .step {
+  width: 45%;
+  position: relative;
+  height: 100%;
+  margin-left: 20px;
+  background-color: #CCC;
+  float: left;
+}
+/* line 171, ../sass/week3.scss */
+.contain .three_partion .how .step .cycle {
+  border: 1px solid #CCC;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  float: left;
+  border-radius: 150px;
+  background-color: green;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+/* line 181, ../sass/week3.scss */
+.contain .three_partion .how .step .cycle p {
+  margin-left: 30%;
+  margin-top: 45%;
+  font-size: 2em;
+}
+/* line 188, ../sass/week3.scss */
+.contain .three_partion .how .step_content {
+  width: 45%;
+  height: 100%;
+  float: left;
+  padding-left: 60px;
+}
+/* line 193, ../sass/week3.scss */
+.contain .three_partion .how .step_content h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+/* line 198, ../sass/week3.scss */
+.contain .three_partion .how .step_content p {
+  font-size: 1.7em;
+  line-height: 1.6;
+  text-align: justify;
+}
