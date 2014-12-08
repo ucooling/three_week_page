@@ -137,12 +137,17 @@ body {
 }
 
 /* line 72, ../sass/week3.scss */
+h1 {
+  color: #0ac285;
+}
+
+/* line 76, ../sass/week3.scss */
 .contain {
   width: 100%;
   height: 1450px;
   background-color: #dddddd;
 }
-/* line 76, ../sass/week3.scss */
+/* line 80, ../sass/week3.scss */
 .contain .introduction {
   margin: 0 auto;
   text-align: center;
@@ -152,66 +157,66 @@ body {
   background-color: white;
   padding-bottom: 100px;
 }
-/* line 84, ../sass/week3.scss */
+/* line 88, ../sass/week3.scss */
 .contain .introduction span {
   border-bottom: 2px solid #CCC;
 }
-/* line 88, ../sass/week3.scss */
+/* line 92, ../sass/week3.scss */
 .contain .first_partion {
   margin: 0 auto;
   width: 90%;
   margin-top: 20px;
 }
-/* line 93, ../sass/week3.scss */
+/* line 97, ../sass/week3.scss */
 .contain .first_partion .content_middle {
   width: 100%;
   height: 400px;
   margin: 0 auto;
 }
-/* line 97, ../sass/week3.scss */
+/* line 101, ../sass/week3.scss */
 .contain .first_partion .content_middle .vedio {
   width: 40%;
   height: 100%;
   float: left;
   margin-left: 100px;
 }
-/* line 102, ../sass/week3.scss */
+/* line 106, ../sass/week3.scss */
 .contain .first_partion .content_middle .vedio .img {
   width: 100%;
   height: 100%;
 }
-/* line 107, ../sass/week3.scss */
+/* line 111, ../sass/week3.scss */
 .contain .first_partion .content_middle .what {
   width: 39%;
   height: 100%;
   float: left;
   padding-left: 60px;
 }
-/* line 112, ../sass/week3.scss */
+/* line 116, ../sass/week3.scss */
 .contain .first_partion .content_middle .what h1 {
   font-size: 2.5em;
   margin-bottom: 30px;
   font-weight: bolder;
 }
-/* line 117, ../sass/week3.scss */
+/* line 121, ../sass/week3.scss */
 .contain .first_partion .content_middle .what p {
   font-size: 1.7em;
   line-height: 1.6;
   text-align: justify;
 }
-/* line 126, ../sass/week3.scss */
+/* line 130, ../sass/week3.scss */
 .contain .secone_partion {
   margin: 0 auto;
   width: 90%;
   margin-top: 50px;
 }
-/* line 130, ../sass/week3.scss */
+/* line 134, ../sass/week3.scss */
 .contain .secone_partion .content_middle {
   width: 100%;
   height: 400px;
   margin: 0 auto;
 }
-/* line 134, ../sass/week3.scss */
+/* line 138, ../sass/week3.scss */
 .contain .secone_partion .content_middle .advantage {
   width: 39%;
   height: 80%;
@@ -220,43 +225,43 @@ body {
   margin-left: 35px;
   margin-right: 60px;
 }
-/* line 141, ../sass/week3.scss */
+/* line 145, ../sass/week3.scss */
 .contain .secone_partion .content_middle .advantage h1 {
   font-size: 2.5em;
   margin-bottom: 30px;
   font-weight: bolder;
 }
-/* line 146, ../sass/week3.scss */
+/* line 150, ../sass/week3.scss */
 .contain .secone_partion .content_middle .advantage p {
   font-size: 1.7em;
   line-height: 1.6;
   text-align: justify;
 }
-/* line 152, ../sass/week3.scss */
+/* line 156, ../sass/week3.scss */
 .contain .secone_partion .content_middle .vedio {
   width: 40%;
   height: 80%;
   float: left;
 }
-/* line 156, ../sass/week3.scss */
+/* line 160, ../sass/week3.scss */
 .contain .secone_partion .content_middle .vedio .img {
   width: 100%;
   height: 100%;
 }
-/* line 164, ../sass/week3.scss */
+/* line 168, ../sass/week3.scss */
 .contain .three_partion {
   margin: 0 auto;
   width: 90%;
   margin-top: 0px;
 }
-/* line 168, ../sass/week3.scss */
+/* line 172, ../sass/week3.scss */
 .contain .three_partion .how {
   margin: 0 auto;
   width: 90%;
   height: 400px;
   padding-top: 10px;
 }
-/* line 173, ../sass/week3.scss */
+/* line 177, ../sass/week3.scss */
 .contain .three_partion .how .step {
   width: 45%;
   position: relative;
@@ -264,39 +269,39 @@ body {
   margin-left: 20px;
   float: left;
 }
-/* line 179, ../sass/week3.scss */
+/* line 183, ../sass/week3.scss */
 .contain .three_partion .how .step img {
   width: 100%;
   height: 250px;
 }
-/* line 184, ../sass/week3.scss */
+/* line 188, ../sass/week3.scss */
 .contain .three_partion .how .step_content {
   width: 45%;
   height: 80%;
   float: left;
   padding-left: 60px;
 }
-/* line 189, ../sass/week3.scss */
+/* line 193, ../sass/week3.scss */
 .contain .three_partion .how .step_content h1 {
   font-size: 2.5em;
   margin-bottom: 30px;
   font-weight: bolder;
 }
-/* line 194, ../sass/week3.scss */
+/* line 198, ../sass/week3.scss */
 .contain .three_partion .how .step_content p {
   font-size: 1.7em;
   line-height: 1.6;
   text-align: justify;
 }
 
-/* line 204, ../sass/week3.scss */
+/* line 208, ../sass/week3.scss */
 .example {
   width: 90%;
   height: 250px;
   margin: -30px auto;
   padding-bottom: 50px;
 }
-/* line 209, ../sass/week3.scss */
+/* line 213, ../sass/week3.scss */
 .example div {
   border: 1px solid #CCC;
   width: 150px;
@@ -308,37 +313,37 @@ body {
   margin-bottom: 100px;
   opacity: 0.4;
 }
-/* line 220, ../sass/week3.scss */
+/* line 224, ../sass/week3.scss */
 .example div:hover {
   opacity: 1;
 }
-/* line 223, ../sass/week3.scss */
+/* line 227, ../sass/week3.scss */
 .example div:nth-child(1) {
   margin-left: 90px;
   background-image: url("../img/pair1.jpg");
 }
-/* line 227, ../sass/week3.scss */
+/* line 231, ../sass/week3.scss */
 .example div:nth-child(2) {
   background-image: url("../img/pair2.jpeg");
   background-position: -79px 9px;
 }
-/* line 231, ../sass/week3.scss */
+/* line 235, ../sass/week3.scss */
 .example div:nth-child(3) {
   background-image: url("../img/pair3.jpeg");
   background-position: -19px -6px;
 }
-/* line 235, ../sass/week3.scss */
+/* line 239, ../sass/week3.scss */
 .example div:nth-child(4) {
   background-image: url("../img/pair4.jpeg");
   background-position: -119px 0px;
 }
-/* line 239, ../sass/week3.scss */
+/* line 243, ../sass/week3.scss */
 .example div:nth-child(5) {
   background-image: url("../img/pair5.jpeg");
   background-position: -93px 0px;
 }
 
-/* line 246, ../sass/week3.scss */
+/* line 250, ../sass/week3.scss */
 .example_pic {
   margin: 0 auto;
   text-align: center;
@@ -348,12 +353,12 @@ body {
   background-color: white;
   margin-bottom: 100px;
 }
-/* line 254, ../sass/week3.scss */
+/* line 258, ../sass/week3.scss */
 .example_pic span {
   border-bottom: 2px solid #CCC;
 }
 
-/* line 259, ../sass/week3.scss */
+/* line 263, ../sass/week3.scss */
 .bottom {
   width: 100%;
   height: 40px;
