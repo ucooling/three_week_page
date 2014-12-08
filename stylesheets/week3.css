@@ -64,6 +64,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 7, ../sass/week3.scss */
+html {
+  min-width: 1400px;
+}
+
+/* line 12, ../sass/week3.scss */
 body {
   width: 100%;
   height: auto;
@@ -73,7 +78,7 @@ body {
   margin: 0 auto;
 }
 
-/* line 15, ../sass/week3.scss */
+/* line 20, ../sass/week3.scss */
 .header {
   border: 1px solid #CCC;
   background-image: url("../img/mainpage.jpg");
@@ -82,7 +87,7 @@ body {
   position: relative;
   /*opacity: 0.9;*/
 }
-/* line 22, ../sass/week3.scss */
+/* line 27, ../sass/week3.scss */
 .header .bar {
   width: 100%;
   height: 40px;
@@ -91,22 +96,27 @@ body {
   color: white;
   position: relative;
 }
-/* line 29, ../sass/week3.scss */
+/* line 34, ../sass/week3.scss */
 .header .bar ul {
   margin-left: 40px;
 }
-/* line 31, ../sass/week3.scss */
+/* line 36, ../sass/week3.scss */
 .header .bar ul li {
   float: left;
   margin-left: 30px;
   padding-top: 12px;
 }
-/* line 38, ../sass/week3.scss */
+/* line 40, ../sass/week3.scss */
+.header .bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* line 47, ../sass/week3.scss */
 .header .topic {
   position: relative;
   z-index: 2;
 }
-/* line 42, ../sass/week3.scss */
+/* line 51, ../sass/week3.scss */
 .header .topic p span {
   font-size: 5em;
   margin: 20% 30%;
@@ -114,7 +124,7 @@ body {
   display: block;
   font-weight: bold;
 }
-/* line 51, ../sass/week3.scss */
+/* line 60, ../sass/week3.scss */
 .header .grey {
   position: absolute;
   height: 620px;
@@ -126,169 +136,231 @@ body {
   background-color: black;
 }
 
-/* line 63, ../sass/week3.scss */
+/* line 72, ../sass/week3.scss */
 .contain {
   width: 100%;
-  height: 1800px;
+  height: 1450px;
   background-color: #dddddd;
 }
-/* line 67, ../sass/week3.scss */
+/* line 76, ../sass/week3.scss */
 .contain .introduction {
   margin: 0 auto;
   text-align: center;
   font-size: 2.5em;
   padding-top: 100px;
-  padding-bottom: 100px;
   color: #0ac285;
   background-color: white;
+  padding-bottom: 100px;
 }
-/* line 75, ../sass/week3.scss */
+/* line 84, ../sass/week3.scss */
 .contain .introduction span {
   border-bottom: 2px solid #CCC;
 }
-/* line 79, ../sass/week3.scss */
+/* line 88, ../sass/week3.scss */
 .contain .first_partion {
   margin: 0 auto;
   width: 90%;
   margin-top: 20px;
 }
-/* line 84, ../sass/week3.scss */
+/* line 93, ../sass/week3.scss */
 .contain .first_partion .content_middle {
   width: 100%;
   height: 400px;
   margin: 0 auto;
 }
-/* line 88, ../sass/week3.scss */
+/* line 97, ../sass/week3.scss */
 .contain .first_partion .content_middle .vedio {
   width: 40%;
   height: 100%;
   float: left;
   margin-left: 100px;
 }
-/* line 93, ../sass/week3.scss */
+/* line 102, ../sass/week3.scss */
 .contain .first_partion .content_middle .vedio .img {
   width: 100%;
   height: 100%;
 }
-/* line 98, ../sass/week3.scss */
+/* line 107, ../sass/week3.scss */
 .contain .first_partion .content_middle .what {
   width: 39%;
   height: 100%;
   float: left;
   padding-left: 60px;
 }
-/* line 103, ../sass/week3.scss */
+/* line 112, ../sass/week3.scss */
 .contain .first_partion .content_middle .what h1 {
   font-size: 2.5em;
   margin-bottom: 30px;
   font-weight: bolder;
 }
-/* line 108, ../sass/week3.scss */
+/* line 117, ../sass/week3.scss */
 .contain .first_partion .content_middle .what p {
   font-size: 1.7em;
   line-height: 1.6;
   text-align: justify;
 }
-/* line 117, ../sass/week3.scss */
+/* line 126, ../sass/week3.scss */
 .contain .secone_partion {
   margin: 0 auto;
   width: 90%;
   margin-top: 50px;
 }
-/* line 121, ../sass/week3.scss */
+/* line 130, ../sass/week3.scss */
 .contain .secone_partion .content_middle {
   width: 100%;
-  height: 460px;
+  height: 400px;
   margin: 0 auto;
 }
-/* line 125, ../sass/week3.scss */
+/* line 134, ../sass/week3.scss */
 .contain .secone_partion .content_middle .advantage {
   width: 39%;
-  height: 100%;
+  height: 80%;
   float: left;
   padding-left: 60px;
   margin-left: 35px;
   margin-right: 60px;
 }
-/* line 132, ../sass/week3.scss */
+/* line 141, ../sass/week3.scss */
 .contain .secone_partion .content_middle .advantage h1 {
   font-size: 2.5em;
   margin-bottom: 30px;
   font-weight: bolder;
 }
-/* line 137, ../sass/week3.scss */
+/* line 146, ../sass/week3.scss */
 .contain .secone_partion .content_middle .advantage p {
   font-size: 1.7em;
   line-height: 1.6;
   text-align: justify;
 }
-/* line 143, ../sass/week3.scss */
+/* line 152, ../sass/week3.scss */
 .contain .secone_partion .content_middle .vedio {
   width: 40%;
   height: 80%;
   float: left;
 }
-/* line 147, ../sass/week3.scss */
+/* line 156, ../sass/week3.scss */
 .contain .secone_partion .content_middle .vedio .img {
   width: 100%;
   height: 100%;
 }
-/* line 155, ../sass/week3.scss */
+/* line 164, ../sass/week3.scss */
 .contain .three_partion {
   margin: 0 auto;
   width: 90%;
-  margin-top: 50px;
+  margin-top: 0px;
 }
-/* line 159, ../sass/week3.scss */
+/* line 168, ../sass/week3.scss */
 .contain .three_partion .how {
   margin: 0 auto;
   width: 90%;
   height: 400px;
   padding-top: 10px;
 }
-/* line 164, ../sass/week3.scss */
+/* line 173, ../sass/week3.scss */
 .contain .three_partion .how .step {
   width: 45%;
   position: relative;
-  height: 100%;
+  height: 80%;
   margin-left: 20px;
-  background-color: #CCC;
   float: left;
 }
-/* line 171, ../sass/week3.scss */
-.contain .three_partion .how .step .cycle {
+/* line 179, ../sass/week3.scss */
+.contain .three_partion .how .step img {
+  width: 100%;
+  height: 250px;
+}
+/* line 184, ../sass/week3.scss */
+.contain .three_partion .how .step_content {
+  width: 45%;
+  height: 80%;
+  float: left;
+  padding-left: 60px;
+}
+/* line 189, ../sass/week3.scss */
+.contain .three_partion .how .step_content h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+/* line 194, ../sass/week3.scss */
+.contain .three_partion .how .step_content p {
+  font-size: 1.7em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* line 204, ../sass/week3.scss */
+.example {
+  width: 90%;
+  height: 250px;
+  margin: -30px auto;
+  padding-bottom: 50px;
+}
+/* line 209, ../sass/week3.scss */
+.example div {
   border: 1px solid #CCC;
   width: 150px;
   height: 150px;
   margin: 0 auto;
   float: left;
   border-radius: 150px;
-  background-color: green;
-  margin-right: 100px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+  opacity: 0.4;
+}
+/* line 220, ../sass/week3.scss */
+.example div:hover {
+  opacity: 1;
+}
+/* line 223, ../sass/week3.scss */
+.example div:nth-child(1) {
+  margin-left: 90px;
+  background-image: url("../img/pair1.jpg");
+}
+/* line 227, ../sass/week3.scss */
+.example div:nth-child(2) {
+  background-image: url("../img/pair2.jpeg");
+  background-position: -79px 9px;
+}
+/* line 231, ../sass/week3.scss */
+.example div:nth-child(3) {
+  background-image: url("../img/pair3.jpeg");
+  background-position: -19px -6px;
+}
+/* line 235, ../sass/week3.scss */
+.example div:nth-child(4) {
+  background-image: url("../img/pair4.jpeg");
+  background-position: -119px 0px;
+}
+/* line 239, ../sass/week3.scss */
+.example div:nth-child(5) {
+  background-image: url("../img/pair5.jpeg");
+  background-position: -93px 0px;
+}
+
+/* line 246, ../sass/week3.scss */
+.example_pic {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: -20px;
+  color: #0ac285;
+  background-color: white;
   margin-bottom: 100px;
 }
-/* line 181, ../sass/week3.scss */
-.contain .three_partion .how .step .cycle p {
-  margin-left: 30%;
-  margin-top: 45%;
-  font-size: 2em;
+/* line 254, ../sass/week3.scss */
+.example_pic span {
+  border-bottom: 2px solid #CCC;
 }
-/* line 188, ../sass/week3.scss */
-.contain .three_partion .how .step_content {
-  width: 45%;
-  height: 100%;
-  float: left;
-  padding-left: 60px;
-}
-/* line 193, ../sass/week3.scss */
-.contain .three_partion .how .step_content h1 {
-  font-size: 2.5em;
-  margin-bottom: 30px;
-  font-weight: bolder;
-}
-/* line 198, ../sass/week3.scss */
-.contain .three_partion .how .step_content p {
-  font-size: 1.7em;
-  line-height: 1.6;
-  text-align: justify;
+
+/* line 259, ../sass/week3.scss */
+.bottom {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  margin-top: -50px;
 }

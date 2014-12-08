@@ -4,6 +4,11 @@
 $text_color : #0ac285;
 $introduction_color : #dddddd;
 
+html {
+  min-width: 1400px;
+}
+
+
 body {
   width: 100%;
   height: auto;
@@ -32,6 +37,10 @@ body {
         float: left;
         margin-left: 30px;
         padding-top: 12px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
       }
     }
   }
@@ -62,16 +71,16 @@ body {
 
 .contain {
     width: 100%;
-    height:1800px;
+    height:1450px;
     background-color: $introduction_color;
     .introduction {
       margin: 0 auto;
       text-align: center;
       font-size: 2.5em;
       padding-top: 100px;
-      padding-bottom: 100px;
       color: $text_color;
       background-color: white;
+      padding-bottom: 100px;
       span{
         border-bottom: 2px solid #CCC;
       }
@@ -120,11 +129,11 @@ body {
     margin-top: 50px;
     .content_middle {
         width: 100%;
-        height: 460px;
+        height: 400px;
         margin: 0 auto;
       .advantage{
         width: 39%;
-        height: 100%;
+        height: 80%;
         float: left;
         padding-left: 60px;
         margin-left: 35px;
@@ -155,7 +164,7 @@ body {
   .three_partion {
     margin: 0 auto;
     width: 90%;
-    margin-top: 50px;
+    margin-top: 0px;
     .how {
       margin: 0 auto;
       width: 90%;
@@ -164,30 +173,17 @@ body {
       .step {
         width: 45%;
         position: relative;
-        height: 100%;
+        height: 80%;
         margin-left: 20px;
-        background-color: #CCC;
         float: left;
-       .cycle{
-          border: 1px solid #CCC;
-          width: 150px;
-          height:150px;
-          margin: 0 auto;
-          float: left;
-          border-radius: 150px;
-          background-color: green;
-          margin-right: 100px;
-          margin-bottom: 100px;
-          p {
-            margin-left: 30%;
-            margin-top: 45%;
-            font-size: 2em;
-          }
+        img {
+          width: 100%;
+          height: 250px;
         }
       }
       .step_content {
         width: 45%;
-        height: 100%;
+        height: 80%;
         float: left;
         padding-left: 60px;
         h1 {
@@ -203,4 +199,70 @@ body {
       }
     }
   }  
+}
+
+.example {
+  width: 90%;
+  height: 250px;
+  margin: -30px auto;
+  padding-bottom: 50px;
+  div {
+    border: 1px solid #CCC;
+    width: 150px;
+    height:150px;
+    margin: 0 auto;
+    float: left;
+    border-radius: 150px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    opacity: 0.4;
+  }
+  div:hover {
+    opacity: 1;
+  }
+  div:nth-child(1){
+    margin-left: 90px;
+    background-image: url("../img/pair1.jpg");
+  }
+  div:nth-child(2){
+    background-image: url("../img/pair2.jpeg");
+    background-position: -79px 9px;
+  }
+  div:nth-child(3){
+    background-image: url("../img/pair3.jpeg");
+    background-position: -19px -6px;
+  }
+  div:nth-child(4){
+    background-image: url("../img/pair4.jpeg");
+    background-position: -119px 0px;
+  }
+  div:nth-child(5){
+    background-image: url("../img/pair5.jpeg");
+    background-position: -93px 0px;
+  }
+
+}
+
+.example_pic {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: -20px;
+  color: $text_color;
+  background-color: white;
+  margin-bottom: 100px;
+  span{
+    border-bottom: 2px solid #CCC;
+  }
+}
+
+.bottom {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  margin-top: -50px;
 }
