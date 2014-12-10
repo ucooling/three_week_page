@@ -206,20 +206,22 @@ h1 {
 }
 
 .example {
-  width: 73%;
+  width: 1165px;
   height: 250px;
   margin: 0 auto;
   margin-top: -30px;
   margin-bottom: -30px;
   padding-bottom: 50px;
+  text-align: center;
   div {
     border: 1px solid #CCC;
     width: 150px;
     height:150px;
     margin: 0 auto;
     float: left;
+    display: inline-block;
     border-radius: 150px;
-    margin-right: 80px;
+    margin-right: 60px;
     margin-bottom: 100px;
     opacity: 0.4;
   }
